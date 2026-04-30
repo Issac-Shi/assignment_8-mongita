@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block container %}
+
+<section id="mainLeft">
+    <h1 class="welcomeText">Welcome to Airplane Bookstore!</h1>
+
+    <p class="welcomeText">
+        This is a bookstore maintenance website for books about civil aviation,
+        passenger aircraft, airline history, aircraft technology, and airline design.
+    </p>
+
+    <a class="commandButton" href="{{ url_for('read') }}">View All Books</a>
+    <a class="commandButton" href="{{ url_for('create') }}">Create Book</a>
+</section>
+
+<section id="mainRight">
+    <h1>Book Categories</h1>
+
+    <div id="categorySelections">
+        {% for category in categories %}
+<div class="category">
+    <p>{{ category['categoryName'] }}</p>
+
+    {% set category_image = category['categoryName']|lower|replace(' and ', '-')|replace(' ', '-') + '-category.jpg' %}
+
+    <img
+        src="{{ url_for('static', filename='images/categories/' + category_image) }}"
+        alt="{{ category['categoryName'] }}"
+    >
+
+    <a class="categoryButton" href="{{ url_for('read', categoryId=category['categoryId']) }}">
+    View Books
+    </a>
+</div>
+{% endfor %}
+    </div>
+</section>
+
+{% endblock %}

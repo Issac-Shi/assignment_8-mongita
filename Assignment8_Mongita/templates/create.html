@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block container %}
+<main class="formPage">
+    <section class="formCard">
+        <h2>Create Book</h2>
+        <p class="formIntro">
+            Add a new aviation book to the Mongita collection.
+            The image filename should match a file in <strong>static/images/books/</strong>.
+        </p>
+
+        <form method="POST" action="{{ url_for('create_post') }}" class="bookForm">
+            <label for="title">Title</label>
+            <input id="title" type="text" name="title" required>
+
+            <label for="author">Author</label>
+            <input id="author" type="text" name="author" required>
+
+            <label for="isbn">ISBN</label>
+            <input id="isbn" type="text" name="isbn" required>
+
+            <label for="price">Price</label>
+            <input id="price" type="number" step="0.01" min="0" name="price" required>
+
+            <label for="categoryId">Category</label>
+            <select id="categoryId" name="categoryId" required>
+                {% for category in categories %}
+                    <option value="{{ category['categoryId'] }}">
+                        {{ category['categoryName'] }}
+                    </option>
+                {% endfor %}
+            </select>
+
+            <label for="image">Image filename</label>
+            <input id="image" type="text" name="image" placeholder="boeing-787-dreamliner.jpg" required>
+
+            <label for="readNow">Read Now</label>
+            <select id="readNow" name="readNow" required>
+                <option value="0">0 - No</option>
+                <option value="1">1 - Yes</option>
+            </select>
+
+            <div class="formButtons">
+                <button type="submit" class="submitButton">Create Book</button>
+                <a class="cancelButton" href="{{ url_for('read') }}">Cancel</a>
+            </div>
+        </form>
+    </section>
+</main>
+{% endblock %}

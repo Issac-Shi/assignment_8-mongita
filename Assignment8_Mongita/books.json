@@ -1,0 +1,134 @@
+[
+  {
+    "bookId": 1,
+    "categoryId": 1,
+    "categoryName": "Jet Age Histories",
+    "title": "747: Creating the World's First Jumbo Jet and Other Adventures from a Life in Aviation",
+    "author": "Joe Sutter, Jay Spenser",
+    "isbn": "9780062011527",
+    "price": 19.99,
+    "image": "747-joe-sutter.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 12,
+    "categoryId": 4,
+    "categoryName": "Airline Industry and Operations",
+    "title": "Air Transport: A Tourism Perspective",
+    "author": "Anne Graham, Frederic Dobruszkes",
+    "isbn": "9780128128572",
+    "price": 54.99,
+    "image": "air-transport-tourism-perspective.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 9,
+    "categoryId": 3,
+    "categoryName": "Airliner Technology",
+    "title": "Airbus A380",
+    "author": "Robert Jackson, Glen Ashley",
+    "isbn": "9781526774095",
+    "price": 22.95,
+    "image": "airbus-a380.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 5,
+    "categoryId": 2,
+    "categoryName": "Airline Design and Branding",
+    "title": "Airline Maps: A Century of Art and Design",
+    "author": "Mark Ovenden, Maxwell Roberts",
+    "isbn": "9780141993119",
+    "price": 26.0,
+    "image": "airline-maps.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 6,
+    "categoryId": 2,
+    "categoryName": "Airline Design and Branding",
+    "title": "Airline Visual Identity: 1945-1975",
+    "author": "Matthias Hühne",
+    "isbn": "9783981655001",
+    "price": 68.0,
+    "image": "airline-visual-identity.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 4,
+    "categoryId": 2,
+    "categoryName": "Airline Design and Branding",
+    "title": "Airline: Style at 30,000 Feet",
+    "author": "Keith Lovegrove",
+    "isbn": "9781780673165",
+    "price": 17.99,
+    "image": "airline-style-30000-feet.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 8,
+    "categoryId": 3,
+    "categoryName": "Airliner Technology",
+    "title": "Boeing 787 Dreamliner",
+    "author": "Guy Norris, Mark Wagner",
+    "isbn": "9781616732271",
+    "price": 24.99,
+    "image": "boeing-787-dreamliner.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 3,
+    "categoryId": 1,
+    "categoryName": "Jet Age Histories",
+    "title": "Come Fly the World: The Jet-Age Story of the Women of Pan Am",
+    "author": "Julia Cooke",
+    "isbn": "9780358251408",
+    "price": 21.99,
+    "image": "come-fly-the-world.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 11,
+    "categoryId": 4,
+    "categoryName": "Airline Industry and Operations",
+    "title": "Flying Off Course: The Economics of International Airlines",
+    "author": "Rigas Doganis",
+    "isbn": "9780203995266",
+    "price": 44.99,
+    "image": "flying-off-course.jpg",
+    "readNow": 0
+  },
+  {
+    "bookId": 2,
+    "categoryId": 1,
+    "categoryName": "Jet Age Histories",
+    "title": "Jet Age: The Comet, the 707, and the Race to Shrink the World",
+    "author": "Sam Howe Verhovek",
+    "isbn": "9781583334362",
+    "price": 18.0,
+    "image": "jet-age-comet-707.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 7,
+    "categoryId": 3,
+    "categoryName": "Airliner Technology",
+    "title": "Supersonic: The Design and Lifestyle of Concorde",
+    "author": "Lawrence Azerrad",
+    "isbn": "9783791384092",
+    "price": 27.5,
+    "image": "supersonic-concorde.jpg",
+    "readNow": 1
+  },
+  {
+    "bookId": 10,
+    "categoryId": 4,
+    "categoryName": "Airline Industry and Operations",
+    "title": "The Airline Business in the Twenty-first Century",
+    "author": "Rigas Doganis",
+    "isbn": "9780415208833",
+    "price": 39.99,
+    "image": "airline-business-twenty-first-century.jpg",
+    "readNow": 1
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "categoryId": 2,
+    "categoryName": "Airline Design and Branding"
+  },
+  {
+    "categoryId": 4,
+    "categoryName": "Airline Industry and Operations"
+  },
+  {
+    "categoryId": 3,
+    "categoryName": "Airliner Technology"
+  },
+  {
+    "categoryId": 1,
+    "categoryName": "Jet Age Histories"
+  }
+]

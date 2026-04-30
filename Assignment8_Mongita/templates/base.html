@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airplane Book</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+</head>
+
+<body>
+
+<header>
+    <div id="leftHeader">
+        <a href="{{ url_for('home') }}">
+            <img
+                src="{{ url_for('static', filename='images/misc/airplane_book_logo.jpg') }}"
+                alt="Airplane Book logo"
+            >
+        </a>
+    </div>
+
+    <div id="midHeader">
+        <h1>Airplane Book</h1>
+        <p>Bookstore Maintenance Website</p>
+
+        <nav id="mainNav">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('read') }}">Read All Books</a>
+            <a href="{{ url_for('create') }}">Create Book</a>
+        </nav>
+    </div>
+
+    <div id="rightHeader">
+        <p class="headerNote">Mongita CRUD System</p>
+    </div>
+</header>
+
+<main>
+    {% block container %}{% endblock %}
+</main>
+
+<footer>
+    <div id="footerLeft">
+        <p>Airplane Book</p>
+        <p>&copy;</p>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('read') }}">All Books</a>
+    </div>
+
+    <div id="footerRight">
+        <a href="#">
+            <img
+                src="{{ url_for('static', filename='images/misc/facebook_icon.jpg') }}"
+                alt="Facebook"
+            >
+        </a>
+        <a href="#">
+            <img
+                src="{{ url_for('static', filename='images/misc/ig_icon.jpg') }}"
+                alt="Instagram"
+            >
+        </a>
+    </div>
+</footer>
+
+</body>
+</html>
